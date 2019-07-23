@@ -10,11 +10,11 @@
 let findPairSum = (arr, sum) => {
     let map = {}, result = [];
     for(let i = 0; i < arr.length; i++){
-        let remainder = sum-arr[i]
+        let remainder = sum-arr[i];
         if(map.hasOwnProperty(remainder)){
-			result = [...result, [map[remainder], i]];
+	    result = [...result, [map[remainder], i]];
         }
-		map[arr[i]] = i;
+	    map[arr[i]] = i;
     }
     return result;
 }
