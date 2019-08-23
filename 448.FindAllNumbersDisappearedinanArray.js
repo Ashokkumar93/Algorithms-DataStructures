@@ -22,6 +22,12 @@ Output:
  
 */
 
+/*
+Time complexity  Space Complexity   LeetCode-level
+---------------  ----------------   -------------
+O(n)	            O(1)		             Easy
+*/
+
 var findDisappearedNumbers = function(nums) {
     let result = [];
     for(let i = 0; i < nums.length; i++){
