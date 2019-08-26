@@ -22,8 +22,8 @@ var generateParenthesis = function(n) {
 
 /*
 
-Time Complexity - Refer (Approach 2 back tracking - https://leetcode.com/problems/generate-parentheses/solution/)
-Space Complexity - Refer (Approach 2 back tracking - https://leetcode.com/problems/generate-parentheses/solution/)
+Time Complexity - O( 4^n / sqrt(n) )
+Space Complexity - O( 4^n / sqrt(n) )
 leet code complexity - Medium
 
 */
